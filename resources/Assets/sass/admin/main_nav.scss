@@ -1,0 +1,31 @@
+*{
+font-family: 'Roboto', sans-serif;
+}
+
+.layout-body{
+ background-color:#f2f2f2;
+}
+
+#navbar-section{
+ padding: 0px;
+ margin: 0px;
+ z-index:10000;
+}
+
+#sidenavimage{
+  background-image: url(../images/b.jpg);
+}
+
+ #admin-sidenavbar{
+ background-color: #2d5986;
+ a{
+ color: #f2f2f2;
+ &:hover, &:focus, &:active{
+  background-color: darken(#2d5986, 10%);
+   }
+ }
+
+}
+
+
+

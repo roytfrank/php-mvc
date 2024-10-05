@@ -1,0 +1,135 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto&display=swap);
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.layout-body {
+  background-color: #f2f2f2;
+}
+
+#navbar-section {
+  padding: 0px;
+  margin: 0px;
+  z-index: 10000;
+}
+
+#sidenavimage {
+  background-image: url(../images/b.jpg);
+}
+
+#admin-sidenavbar {
+  background-color: #2d5986;
+}
+
+#admin-sidenavbar a {
+  color: #f2f2f2;
+}
+
+#admin-sidenavbar a:hover, #admin-sidenavbar a:focus, #admin-sidenavbar a:active {
+  background-color: #204060;
+}
+
+#admin-content {
+  padding-left: 0px;
+}
+
+#admin-content .forms-card, #admin-content .table-card {
+  background-color: #f2f2f2;
+  border-radius: 0px !important;
+}
+
+#admin-content .forms-card #categoryname, #admin-content .forms-card #categorysearch {
+  background-color: #f2f2f2;
+}
+
+.subnotification, .updatenotification, .deletenotification, .editsubnotification, .deletesubnotification {
+  display: none;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#create-product-card {
+  background-color: #f2f2f2;
+}
+
+#create-product-card #productname, #create-product-card #productprice, #create-product-card #product, #create-product-card #selectfeatured, #create-product-card #productimage, #create-product-card #selectquantity, #create-product-card #productcategory, #create-product-card #productsubcategory, #create-product-card #product, #create-product-card #available, #create-product-card #percentoff {
+  background-color: #f2f2f2;
+  border-radius: 0px;
+}
+
+#product-table-card {
+  background-color: #f2f2f2;
+}
+
+#product-table-card #tounavailable, #product-table-card #toavailable {
+  cursor: pointer;
+}
+
+.removenotification {
+  padding: 20px;
+  border-radius: 0px;
+  display: none;
+}
+
+#store-nav {
+  padding: 0px;
+  margin: 0px;
+  z-index: 10000;
+}
+
+#memberdropdown {
+  width: 40px !important;
+}
+
+#memberdropdown a:hover, #memberdropdown a:active, #memberdropdown a:focus {
+  background-color: #000000 !important;
+}
+
+#paypal-button-container {
+  margin-right: 50px !important;
+}
+
+#singlebox {
+  background-color: #f5f5f0;
+}
+
+#singlebox .infosection {
+  background-color: #f5f5f0;
+}
+
+#singlebox #mainImage {
+  width: 100%;
+  height: 380px;
+}
+
+#singlebox #supportiveImages {
+  width: 100%;
+  height: 100px;
+  margin: 2px !important;
+  padding: 2px !important;
+}
+
+#singlebox .amountoff {
+  height: 20px;
+  width: 20px;
+  font-size: 0.9rem;
+  padding: 5px;
+  border-radius: 50px;
+  background-color: #e0e0d1;
+}
+
+.rejoydesc {
+  background-color: #f5f5f0;
+}
+
+#headingOne {
+  background-color: #f5f5f0;
+}
+
+#cartnoty {
+  padding: 20px;
+  width: 200px;
+  z-index: 1000;
+  position: fixed;
+  display: none;
+}

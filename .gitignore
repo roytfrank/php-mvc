@@ -1,0 +1,14 @@
+/public/uploads/products
+/public/images
+/bootstrap/cache
+/node_modules
+/resources/Assets/bower
+/vendor
+.bowerrc
+composer.json
+bower.json
+composer.lock
+.env
+package.json
+package-lock.json
+phpunit.xml

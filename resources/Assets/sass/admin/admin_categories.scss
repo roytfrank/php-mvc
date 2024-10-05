@@ -1,0 +1,17 @@
+#admin-content{
+padding-left: 0px;
+.forms-card, .table-card{
+	background-color: #f2f2f2;
+	border-radius: 0px !important;
+ }
+ .forms-card{
+  #categoryname, #categorysearch{
+   background-color: #f2f2f2;
+  }
+ }
+}
+.subnotification, .updatenotification, .deletenotification, .editsubnotification, .deletesubnotification{
+	display:none;
+	padding:15px;
+	border-radius:4px;
+}
